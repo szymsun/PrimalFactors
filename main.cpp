@@ -5,6 +5,7 @@
 
 #include <iostream>
 
+
 using namespace std;
 
 int ArrayLength(int* array){
@@ -98,6 +99,7 @@ int main() {
     }
     else{
         cout << "TEST1: FAIL";
+        delete czynniki;
         return -1;
     }
 
